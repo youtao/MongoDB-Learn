@@ -6,9 +6,15 @@ using System.Web.Mvc;
 
 namespace MongoDB_Learn.WebUI.Areas.Home.Controllers
 {
+    /// <summary>
+    /// Class HomeController.
+    /// </summary>
     public class HomeController : Controller
     {
-        // GET: Home/Home
+        /// <summary>
+        /// Indexes this instance.
+        /// </summary>
+        /// <returns>ActionResult.</returns>
         public ActionResult Index()
         {
             return View();
